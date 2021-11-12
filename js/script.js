@@ -40,6 +40,7 @@ const app = new Vue({
                 text:'',
                 done:""
             };
+            this.stringaTobo.text='';
             
         },
     } 

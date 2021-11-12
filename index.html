@@ -17,17 +17,18 @@
             <img src="https://www.boolean.careers/images/misc/logo.png" alt="">
         </div>
     </div>
+        <div class="errore">Inserire un testo più lungo</div>
         <input v-model="stringaTobo.text"
                @keyup.enter="inserireItemTobo"
                type="text" placeholder="Nuovo Todo">
 
         <button @click="inserireItemTobo"
-                class="bottone">Aggiungi</button>
+                class="bottone"><span class="aggiungi">Aggiungi</span></button>
 
         <div class="container2">
            <ul>
                <li v-for="(item, index) in toboList">
-                  <p>{{item.text}}</p>
+                 <strong><p>{{item.text}}</p></strong>
                   <i @click="removeItem(index)"
                      class="fas fa-times"></i>
                </li>
