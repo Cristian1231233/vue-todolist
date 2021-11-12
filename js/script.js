@@ -9,19 +9,23 @@ const app = new Vue({
                 done: ''
             },
             {
-                text: 'Ripassare HTML/CSS',
+                text: 'Alzarsi presto la mattina per ripassare',
                 done: ''
             },
             {
-                text: 'Ripassare HTML/CSS',
+                text: 'mksnfnfjenfks',
                 done: ''
             },
             {
-                text: 'Ripassare HTML/CSS',
+                text: 'kdndndnkdnk',
                 done: ''
             },
         ],
-        stringaTobo:''
+        
+        stringaTobo:{
+        }
+                    
+                    
     },
     methods:{
         removeItem(index){
@@ -30,7 +34,7 @@ const app = new Vue({
         },
         inserireItemTobo(){
             this.toboList.push(this.stringaTobo);
-            console.log(this.stringaTobo);
+            
             
         }
     }

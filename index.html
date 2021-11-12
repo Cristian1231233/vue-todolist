@@ -20,7 +20,9 @@
         <input v-model="stringaTobo"
                @keyup.enter="inserireItemTobo"
                type="text" placeholder="Nuovo Todo">
-        <button class="bottone">Aggiungi</button>
+
+        <button @click="inserireItemTobo"
+                class="bottone">Aggiungi</button>
 
         <div class="container2">
            <ul>
