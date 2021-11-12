@@ -1,0 +1,35 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container1{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+   
+}
+
+.logo{
+    width: 200px;
+    padding-top: 10px;
+    
+
+}
+.logo img{
+    width: 100%;
+}
+.bottone{
+    margin: 20px;
+}
+ul > li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(99, 91, 91, .3);
+}
+li:last-child{
+    border: none;
+}
