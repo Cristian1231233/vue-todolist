@@ -34,3 +34,10 @@ ul > li{
 li:last-child{
     border: none;
 }
+.fa-times{
+    color: rgb(173, 169, 169);
+}
+.fa-times:hover{
+    color: red;
+    cursor: pointer;
+}

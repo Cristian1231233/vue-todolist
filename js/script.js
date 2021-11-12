@@ -22,8 +22,10 @@ const app = new Vue({
             },
         ],
         
-        stringaTobo:{
-        }
+        stringaTobo: { 
+            text:'',
+            done:""
+        },
                     
                     
     },
@@ -34,9 +36,14 @@ const app = new Vue({
         },
         inserireItemTobo(){
             this.toboList.push(this.stringaTobo);
+            this.stringaTobo = { 
+                text:'',
+                done:""
+            };
             
-            
-        }
-    }
+        },
+    } 
 
 });
+
+
